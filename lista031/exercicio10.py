@@ -4,7 +4,7 @@
 
 valor = float(input("Qual o valor da sua prestação? R$"))
 atraso = int(input("Quantos dias de atraso tem a sua prestação?"))
-taxa = float(input("Qual é a taxa de atraso? R$"))
+taxa = float(input("Qual é a taxa de atraso em porcentagem? "))
 
 conta = valor + (valor * (taxa / 100) * atraso)
 
